@@ -1,0 +1,184 @@
+html,body,header,#home{
+    height:100%;
+	width:100%;
+}
+body{
+	overflow-x:hidden;
+}
+#home{
+background: url("https://k61.kn3.net/taringa/0/0/D/8/C/E/BrianF16/46B.jpg")no-repeat center center; 
+    background-size: cover;
+}
+a{
+    color:black;
+}
+span{
+	color:#CA952A;
+}
+#id{
+	height:20px;
+}
+#img{
+	height:180px;
+	width:180px;
+}
+#text{
+	color:#CA952A;
+	font-size:75%;
+}
+#skill1{
+	position:relative;
+	top:90px;
+
+}
+#expr{
+	position:relative;
+	top:90px;
+}
+#experience,#stepper,#work,#skill{
+background-color:RGB(27,64,99);
+}
+#se{
+	color:red;
+	text-align:center;
+}
+#ses{
+	text-align:center;
+	font-size:18px;
+}
+#active{
+	font-size:34px;
+	color:#4dff4d;
+}
+#stepper-text{
+	color:#0066ff;
+}
+#class{
+	font-size:45px;
+	font-family:cursive;
+	color:red;
+	position:relative;
+	right:10%;
+}
+#color{
+	color:green;
+}
+#colo,#tt{
+	font-size:18px;
+	font-family: 'Work Sans', sans-serif;
+	color:white;
+}
+#dec{
+	font-family:cursive;
+	color:white;
+	font-size:18px;
+}
+#bgg{
+	background-color:RGB(27,64,99);
+	}
+.scrollbar {
+margin-left:100px;
+margin-top:50px;
+float: left;
+height: 40px;
+width: 13px;
+background:#00aaff;
+overflow-y: scroll;
+margin-bottom: 25px;
+}
+.force-overflow {
+min-height: 80px;
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+width: 12px;
+background-color:#00aaff; }
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #4285F4; }
+
+.scrollbar-danger::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-danger::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-danger::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #ff3547; }
+
+.scrollbar-warning::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-warning::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-warning::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #FF8800; }
+
+.scrollbar-success::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-success::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-success::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #00C851; }
+
+.scrollbar-info::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-info::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-info::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #33b5e5; }
+
+.scrollbar-default::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-default::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-default::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #2BBBAD; }
+
+.scrollbar-secondary::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-secondary::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-secondary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #aa66cc; }
