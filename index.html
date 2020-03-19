@@ -1,4 +1,4 @@
-﻿	
+	
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,8 +22,12 @@
 html{
 scroll-behavior:smooth;
 }
-#demo{
-color:#784b48;
+#demo,#demo2{
+color:#d6b5b2;
+opacity:0.9;
+ }
+ #demo2{
+ font-size:25px;
  }
 .btn:hover{
 color:red;
@@ -110,9 +114,9 @@ color:red;
 					</div>
 					<div class="col-sm-4">
 						<div class="full-bg-img">
-							<div class="display-3 font-bold white-text"><h3 class="flex-center"><p id="demo"></p></h3></div>
+							<div class="display-3 font-bold white-text"><h2 class="flex-center"><p id="demo"></p></h3></div>
 							<hr class="hr-light">
-							<div class="white-text flex-center"><h5><p id="demo2"></h5></div>
+							<div class="white-text flex-center"><h2><p id="demo2"></h5></div>
 						</div> 
 					</div>
 					<div class="col-sm-4"></div>				
@@ -799,11 +803,9 @@ color:red;
 <script>
 var c=0,d;
 var name=["ABHISHEK KUMAR"];
-var proffesion=["COMPETITIVE PROGRAMMER"];
 d=name.length;
-l=proffesion.length;
 var m="";
-var myVar = setInterval(myTimer ,200);
+var myVar = setInterval(myTimer ,180);
 function myTimer() {
   m+=name[c];
   c=c+1;
@@ -812,14 +814,18 @@ function myTimer() {
   clearInterval(myVar);
   }
 }
-var p="";
-c=0;
-var myVar2 = setInterval(myTimer2 ,200);
+
+
+var l,p="";
+var counter=0;
+var proffesion=["C","O","M","P","E","T","I","T","I","V","E"," ","|"," ","P","R","O","G","R","A","M","M","E","R"];
+l=proffesion.length;
+var myVar2 = setInterval(myTimer2 ,114);
 function myTimer2() {
-  p+=proffesion[c];
-  c=c+1;
+  p+=proffesion[counter];
+  counter+=1;
   document.getElementById("demo2").innerHTML=p;
-  if(c==d){
+  if(counter==l){
   clearInterval(myVar2);
   }
 }
