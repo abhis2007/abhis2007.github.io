@@ -812,15 +812,15 @@ function myTimer() {
   clearInterval(myVar);
   }
 }
-m="";
+var p="";
 c=0;
-var myVar = setInterval(myTimer2 ,200);
+var myVar2 = setInterval(myTimer2 ,200);
 function myTimer2() {
-  m+=proffesion[c];
+  p+=proffesion[c];
   c=c+1;
-  document.getElementById("demo2").innerHTML=m;
+  document.getElementById("demo2").innerHTML=p;
   if(c==d){
-  clearInterval(myVar);
+  clearInterval(myVar2);
   }
 }
 </script>
