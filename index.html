@@ -22,9 +22,9 @@
 html{
 scroll-behavior:smooth;
 }
-	  #demo{
-	  color:#784b48;
-	  }
+#demo{
+color:#784b48;
+ }
 .btn:hover{
 color:red;
 }
@@ -813,9 +813,10 @@ function myTimer() {
   }
 }
 m="";
-var myVar = setInterval(myTimer ,200);
-function myTimer() {
-  m+=name[c];
+c=0;
+var myVar = setInterval(myTimer2 ,200);
+function myTimer2() {
+  m+=proffesion[c];
   c=c+1;
   document.getElementById("demo2").innerHTML=m;
   if(c==d){
