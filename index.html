@@ -112,7 +112,7 @@ color:red;
 						<div class="full-bg-img">
 							<div class="display-3 font-bold white-text"><h3 class="flex-center"><p id="demo"></p></h3></div>
 							<hr class="hr-light">
-							<div class="white-text flex-center"><h5><p id="demo"></h5></div>
+							<div class="white-text flex-center"><h5><p id="demo2"></h5></div>
 						</div> 
 					</div>
 					<div class="col-sm-4"></div>				
@@ -799,13 +799,25 @@ color:red;
 <script>
 var c=0,d;
 var name=["ABHISHEK KUMAR"];
+var proffesion=["COMPETITIVE PROGRAMMER"];
 d=name.length;
+l=proffesion.length;
 var m="";
 var myVar = setInterval(myTimer ,200);
 function myTimer() {
   m+=name[c];
   c=c+1;
   document.getElementById("demo").innerHTML=m;
+  if(c==d){
+  clearInterval(myVar);
+  }
+}
+m="";
+var myVar = setInterval(myTimer ,200);
+function myTimer() {
+  m+=name[c];
+  c=c+1;
+  document.getElementById("demo2").innerHTML=m;
   if(c==d){
   clearInterval(myVar);
   }
